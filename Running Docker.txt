@@ -1,0 +1,7 @@
+- Copy the backend project to the required folder;
+- Install docker and start the service (or daemon if on Linux);
+- Create a folder ./nginx/conf.d/ and upload the app.conf config file there;
+- Create a folder ./dbtest for the database;
+- Copy the Dockerfile and docker-compose.yml to the backend project folder;
+- Go to the backend project folder and execute the command docker-compose up -d (run in the background) as root;
+- Go to the webcam phpmyadmin http://localhost:8080 and upload the database.

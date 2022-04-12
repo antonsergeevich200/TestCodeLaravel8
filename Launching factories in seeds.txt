@@ -1,0 +1,5 @@
+php artisan db:seed --class=UserTableSeeder
+
+php artisan db:seed --class=PostTableSeeder
+
+php artisan db:seed --class=CommentTableSeeder
